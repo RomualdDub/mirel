@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mirel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mirel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mirel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="-lsfml-system" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-graphics" />
+			<Add option="-ltinyxml" />
+		</Linker>
+		<Unit filename="bobo.h" />
+		<Unit filename="boss.h" />
+		<Unit filename="dialog.h" />
+		<Unit filename="emote.h" />
+		<Unit filename="game.h" />
+		<Unit filename="hero.h" />
+		<Unit filename="label.h" />
+		<Unit filename="loot.h" />
+		<Unit filename="magic.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.h" />
+		<Unit filename="mob.h" />
+		<Unit filename="particle.h" />
+		<Unit filename="pet.h" />
+		<Unit filename="scene.h" />
+		<Unit filename="score.h" />
+		<Unit filename="world.h" />
+		<Unit filename="xml.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
