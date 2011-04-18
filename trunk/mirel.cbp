@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mirel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mirel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mirel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="-lsfml-system" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-graphics" />
+			<Add option="-ltinyxml" />
+		</Linker>
+		<Unit filename="headers/bobo.h" />
+		<Unit filename="headers/boss.h" />
+		<Unit filename="headers/dialog.h" />
+		<Unit filename="headers/emote.h" />
+		<Unit filename="headers/game.h" />
+		<Unit filename="headers/gfx.h" />
+		<Unit filename="headers/hero.h" />
+		<Unit filename="headers/label.h" />
+		<Unit filename="headers/loot.h" />
+		<Unit filename="headers/magic.h" />
+		<Unit filename="headers/map.h" />
+		<Unit filename="headers/mob.h" />
+		<Unit filename="headers/particle.h" />
+		<Unit filename="headers/pet.h" />
+		<Unit filename="headers/scene.h" />
+		<Unit filename="headers/score.h" />
+		<Unit filename="headers/system.h" />
+		<Unit filename="headers/teleport.h" />
+		<Unit filename="headers/world.h" />
+		<Unit filename="headers/xml.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
