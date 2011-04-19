@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<hats0>
+    <item name="name" value="Destiny's Hat" />
+    <item name="level" value="0" />
+    <item name="bonus" value="0" />
+</hats0>
+<dresses0>
+    <item name="name" value="Destiny's Dress" />
+    <item name="level" value="0" />
+    <item name="bonus" value="0" />
+</dresses0>
+<wands0>
+    <item name="name" value="Destiny's Wand" />
+    <item name="level" value="0" />
+    <item name="bonus" value="0" />
+</wands0>
