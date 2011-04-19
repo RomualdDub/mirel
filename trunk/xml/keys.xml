@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<keys>
+    <key name="left" value="113" />
+    <key name="right" value="100" />
+    <key name="jump" value="122" />
+    <key name="action" value="277" />
+    <key name="pet" value="97" />
+</keys>

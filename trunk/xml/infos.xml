@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<infos>
+    <info name="level" value="3" />
+    <info name="exp" value="855" />
+    <info name="money" value="341" />
+    <info name="herox" value="1156" />
+    <info name="petx" value="1220" />
+    <info name="currentmagic" value="0" />
+    <info name="worldindex" value="2" />
+</infos>
