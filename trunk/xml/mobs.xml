@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<mobs0>
-    <mob name="name" value="Champipi" />
-    <mob name="level" value="1" />
-</mobs0>
-<mobs1>
-    <mob name="name" value="Snaky" />
-    <mob name="level" value="5" />
-</mobs1>
