@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<infos>
+    <info level="5" />
+    <info exp="2125" />
+    <info money="2081" />
+    <info herox="1822" />
+    <info herodirection="0" />
+    <info pettankx="1758" />
+    <info petlootx="1694" />
+    <info magicindex="0" />
+    <info worldindex="2" />
+    <info hatindex="1" />
+    <info hatincrementation="0" />
+    <info dressindex="1" />
+    <info dressincrementation="5" />
+    <info wandindex="1" />
+    <info wandincrementation="0" />
+</infos>
