@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<worlds0>
+    <world split="3" />
+    <world mob="1" posx="100" />
+    <world boss="1" posx="800" />
+    <world teleport="1" pos0="2100" direction0="0" worlddest0="2" worldxdest0="464"/>
+</worlds0>
+<worlds1>
+    <world split="3" />
+    <world mob="2" posx="800" />
+    <world boss="2" posx="100" />
+    <world teleport="2" pos0="400" direction0="1" worlddest0="1" worldxdest0="2036" pos1="1830" direction1="0" worlddest1="3" worldxdest1="444"/>
+</worlds1>
+<worlds2>
+    <world split="3" />
+    <world mob="3" posx="100" />
+    <world boss="3" posx="800" />
+    <world teleport="1" pos0="380" direction0="1" worlddest0="2" worldxdest0="1766"/>
+</worlds2>
+
