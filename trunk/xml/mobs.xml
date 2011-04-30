@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<mobs0>
+    <mob name="Champipi" />
+    <mob level="1" />
+</mobs0>
+<mobs1>
+    <mob name="Snaky" />
+    <mob level="5" />
+</mobs1>
+<mobs2>
+    <mob name="Ghost" />
+    <mob level="10" />
+</mobs2>
